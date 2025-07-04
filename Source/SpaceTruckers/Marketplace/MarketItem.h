@@ -1,5 +1,6 @@
 #pragma once
 
+#include "MarketItemCategory.h"
 #include "MarketItem.generated.h"
 
 
@@ -15,5 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite)
     FText itemDescription {FText::FromString("NoName")};
 
-
+    UPROPERTY(BlueprintReadWrite)
+    FMarketItemCategory itemCategory;
 };
