@@ -10,9 +10,10 @@ struct FMarketItem
 
 public:
     UPROPERTY(BlueprintReadWrite)
-    FText MarketItemName {FText::FromString("NoName")};
+    FText itemName {FText::FromString("NoName")};
 
     UPROPERTY(BlueprintReadWrite)
-    FVector2D Location {0.0f, 0.0f};
+    FText itemDescription {FText::FromString("NoName")};
+
 
 };

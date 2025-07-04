@@ -1,5 +1,7 @@
 #pragma once
 
+#include "MarketItem.h"
+#include "MarketVendor.h"
 #include "MarketListing.generated.h"
 
 
@@ -9,10 +11,19 @@ struct FMarketListing
     GENERATED_USTRUCT_BODY()
 
 public:
+    // What item is available for purchase.
     UPROPERTY(BlueprintReadWrite)
-    FText MarketListingName {FText::FromString("NoName")};
+    FMarketItem item;
 
+    // What price is each unit.
     UPROPERTY(BlueprintReadWrite)
-    FVector2D Location {0.0f, 0.0f};
+    float unitPrice {0.0f};
 
+    // How many units are available.
+    UPROPERTY(BlueprintReadWrite)
+    int32 unitsAvailable {0};
+
+    // Which vendor is offering this listing.
+    UPROPERTY(BlueprintReadWrite)
+    FMarketVendor vendor;
 };
