@@ -1,11 +1,18 @@
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Universe.generated.h"
 
 
-class SPACETRUCKERS_API Universe
+USTRUCT(BlueprintType)
+struct FUniverse
 {
+    GENERATED_USTRUCT_BODY()
+
 public:
-	Universe();
-	~Universe();
+    UPROPERTY(BlueprintReadWrite)
+    FText UniverseName {FText::FromString("Worst Timeline")};
+
+    UPROPERTY(BlueprintReadWrite)
+    FVector2D Location {0.0f, 0.0f};
+
 };

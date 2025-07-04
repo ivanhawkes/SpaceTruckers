@@ -1,11 +1,18 @@
 #pragma once
 
-#include "CoreMinimal.h"
+#include "SolarSystem.generated.h"
 
 
-class SPACETRUCKERS_API SolarSystem
+USTRUCT(BlueprintType)
+struct FSolarSystem
 {
+    GENERATED_USTRUCT_BODY()
+
 public:
-	SolarSystem();
-	~SolarSystem();
+    UPROPERTY(BlueprintReadWrite)
+    FText SolarSystemName {FText::FromString("Doom")};
+
+    UPROPERTY(BlueprintReadWrite)
+    FVector2D Location {0.0f, 0.0f};
+
 };

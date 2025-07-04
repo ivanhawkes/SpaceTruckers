@@ -1,11 +1,18 @@
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Planet.generated.h"
 
 
-class SPACETRUCKERS_API Planet
+USTRUCT(BlueprintType)
+struct FPlanet
 {
+    GENERATED_USTRUCT_BODY()
+
 public:
-	Planet();
-	~Planet();
+    UPROPERTY(BlueprintReadWrite)
+    FText PlanetName {FText::FromString("Apes Won")};
+
+    UPROPERTY(BlueprintReadWrite)
+    FVector2D Location {0.0f, 0.0f};
+
 };

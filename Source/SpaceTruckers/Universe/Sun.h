@@ -1,11 +1,18 @@
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Sun.generated.h"
 
 
-class SPACETRUCKERS_API Sun
+USTRUCT(BlueprintType)
+struct FSun
 {
+    GENERATED_USTRUCT_BODY()
+
 public:
-	Sun();
-	~Sun();
+    UPROPERTY(BlueprintReadWrite)
+    FText SunName {FText::FromString("Explodus")};
+
+    UPROPERTY(BlueprintReadWrite)
+    FVector2D Location {0.0f, 0.0f};
+
 };

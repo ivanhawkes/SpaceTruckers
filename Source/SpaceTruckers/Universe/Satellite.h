@@ -1,11 +1,19 @@
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Satellite.generated.h"
 
 
-class SPACETRUCKERS_API Satellite
+USTRUCT(BlueprintType)
+struct FSatellite
 {
+    GENERATED_USTRUCT_BODY()
+
 public:
-	Satellite();
-	~Satellite();
+    UPROPERTY(BlueprintReadWrite)
+    FText SatelliteName {FText::FromString("Mr. The Moon")};
+
+    UPROPERTY(BlueprintReadWrite)
+    FVector2D Location {0.0f, 0.0f};
+
 };
+

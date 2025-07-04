@@ -1,11 +1,18 @@
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Marketplace.generated.h"
 
 
-class SPACETRUCKERS_API Marketplace
+USTRUCT(BlueprintType)
+struct FMarketplace
 {
+    GENERATED_USTRUCT_BODY()
+
 public:
-	Marketplace();
-	~Marketplace();
+    UPROPERTY(BlueprintReadWrite)
+    FText MarketplaceName {FText::FromString("Greed is good")};
+
+    UPROPERTY(BlueprintReadWrite)
+    FVector2D Location {0.0f, 0.0f};
+
 };
