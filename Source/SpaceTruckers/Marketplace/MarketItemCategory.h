@@ -22,7 +22,7 @@ public:
     int32 categoryID;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText categoryName {FText::FromString("Commodity")};
+    FText categoryName {};
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
     EMarketCategoryType categoryType;
