@@ -7,8 +7,21 @@
 UENUM()
 enum class EMarketCategoryType : uint8
 {
+    Arms UMETA(DisplayName = "Arms"),
+    Computing UMETA(DisplayName = "Computing"),
+    ConstructionMaterial UMETA(DisplayName = "ConstructionMaterial"),
+    Consumable UMETA(DisplayName = "Consumable"),
+    Fertiliser UMETA(DisplayName = "Fertiliser"),
+    Fuel UMETA(DisplayName = "Fuel"),
+    Machinery UMETA(DisplayName = "Machinery"),
+    Metal UMETA(DisplayName = "Metal"),
+    Minerals UMETA(DisplayName = "Minerals"),
+    Optics UMETA(DisplayName = "Optics"),
+    Pharmaceutical UMETA(DisplayName = "Pharmaceutical"),
+    Polymer UMETA(DisplayName = "Polymer"),
+    SmallArms UMETA(DisplayName = "SmallArms"),
     Tool UMETA(DisplayName = "Tool"),
-    Consumable UMETA(DisplayName = "Consumable")
+    Water UMETA(DisplayName = "Water")
 };
 
 
