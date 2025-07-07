@@ -6,7 +6,7 @@
 USTRUCT(BlueprintType)
 struct FSatellite
 {
-    GENERATED_USTRUCT_BODY()
+    GENERATED_BODY()
 
 public:
     UPROPERTY(BlueprintReadWrite)

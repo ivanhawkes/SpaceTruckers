@@ -6,7 +6,7 @@
 USTRUCT(BlueprintType)
 struct FMarketVendor
 {
-    GENERATED_USTRUCT_BODY()
+    GENERATED_BODY()
 
 public:
     UPROPERTY(BlueprintReadWrite)

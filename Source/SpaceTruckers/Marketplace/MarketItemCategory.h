@@ -3,15 +3,27 @@
 #include "MarketItemCategory.generated.h"
 
 
-USTRUCT(BlueprintType)
-struct FMarketItemCategory
+// Defines the type of the item.
+UENUM()
+enum class EMarketCategoryType : uint8
 {
-    GENERATED_USTRUCT_BODY()
+    Tool UMETA(DisplayName = "Tool"),
+    Consumable UMETA(DisplayName = "Consumable")
+};
+
+
+USTRUCT(BlueprintType)
+struct FMarketItemCategory : public FTableRowBase
+{
+    GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintReadWrite)
+    UPROPERTY(EditAnywhere, Category = "Item Data")
     int32 categoryID;
 
-    UPROPERTY(BlueprintReadWrite)
+    UPROPERTY(EditAnywhere, Category = "Item Data")
     FText categoryName {FText::FromString("Commodity")};
+
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    EMarketCategoryType categoryType;
 };
