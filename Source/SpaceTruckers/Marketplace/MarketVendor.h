@@ -9,10 +9,10 @@ struct FMarketVendor
     GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintReadWrite)
-    FText MarketVendorName {FText::FromString("NoName")};
+    // The ID name of this item for referencing in a table row.
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FName id;
 
-    UPROPERTY(BlueprintReadWrite)
-    FVector2D Location {0.0f, 0.0f};
-
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FText MarketVendorName;
 };

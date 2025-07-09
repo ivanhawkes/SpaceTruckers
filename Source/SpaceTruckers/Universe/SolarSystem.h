@@ -12,11 +12,11 @@ struct FSolarSystem : public FTableRowBase
 
 public:
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FName ID;
+    FName id;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText SolarSystemName {};
+    FText name;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FVector2D Location {0.0f, 0.0f};
+    FTransform transform;
 };

@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Sun.h"
 #include "Planet.generated.h"
 
 
@@ -9,10 +10,12 @@ struct FPlanet
     GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintReadWrite)
-    FText PlanetName {FText::FromString("Apes Won")};
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FText name;
 
-    UPROPERTY(BlueprintReadWrite)
-    FVector2D Location {0.0f, 0.0f};
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FSun solarSystem;
 
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FTransform transform;
 };

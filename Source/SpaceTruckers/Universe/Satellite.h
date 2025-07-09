@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Planet.h"
 #include "Satellite.generated.h"
 
 
@@ -9,11 +10,13 @@ struct FSatellite
     GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintReadWrite)
-    FText SatelliteName {FText::FromString("Mr. The Moon")};
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FText name;
 
-    UPROPERTY(BlueprintReadWrite)
-    FVector2D Location {0.0f, 0.0f};
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FPlanet planet;
 
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FTransform transform;
 };
 

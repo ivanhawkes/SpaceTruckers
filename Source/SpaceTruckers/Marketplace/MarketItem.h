@@ -12,10 +12,10 @@ struct FMarketItem : public FTableRowBase
 
 public:
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText itemName {FText::FromString("NoName")};
+    FText name;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText itemDescription {FText::FromString("NoName")};
+    FText itemDescription;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
     FMarketItemCategory itemCategory;

@@ -31,11 +31,12 @@ struct FMarketItemCategory : public FTableRowBase
     GENERATED_BODY()
 
 public:
+    // The ID name of this item for referencing in a table row.
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    int32 categoryID;
+    FName id;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText categoryName {};
+    FText categoryName;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
     EMarketCategoryType categoryType;

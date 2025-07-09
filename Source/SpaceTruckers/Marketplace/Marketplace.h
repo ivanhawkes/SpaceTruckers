@@ -9,10 +9,9 @@ struct FMarketplace
     GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintReadWrite)
-    FText MarketplaceName {FText::FromString("Greed is good")};
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FText name;
 
-    UPROPERTY(BlueprintReadWrite)
+    UPROPERTY(EditAnywhere, Category = "Item Data")
     FVector2D Location {0.0f, 0.0f};
-
 };

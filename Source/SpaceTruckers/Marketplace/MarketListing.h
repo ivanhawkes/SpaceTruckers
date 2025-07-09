@@ -7,29 +7,29 @@
 #include "MarketListing.generated.h"
 
 
-UCLASS(BlueprintType, Blueprintable)
-class SPACETRUCKERS_API UMarketListing : public UDataAsset
+USTRUCT(BlueprintType)
+struct FMarketListing : public FTableRowBase
 {
     GENERATED_BODY()
 
 public:
     // The ID name of this item for referencing in a table row.
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FName ID;
+    FName id;
     
+    // Which vendor is offering this listing.
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FMarketVendor vendor;
+
     // What item is available for purchase.
     UPROPERTY(EditAnywhere, Category = "Item Data")
     FMarketItem item;
 
     // What price is each unit.
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    float unitPrice {0.0f};
+    double unitPrice {0.0f};
 
     // How many units are available.
     UPROPERTY(EditAnywhere, Category = "Item Data")
     int32 unitsAvailable {0};
-
-    // Which vendor is offering this listing.
-    UPROPERTY(EditAnywhere, Category = "Item Data")
-    FMarketVendor vendor;
 };

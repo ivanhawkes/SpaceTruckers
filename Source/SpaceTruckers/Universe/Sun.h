@@ -1,5 +1,6 @@
 #pragma once
 
+#include "SolarSystem.h"
 #include "Sun.generated.h"
 
 
@@ -9,10 +10,12 @@ struct FSun
     GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintReadWrite)
-    FText SunName {FText::FromString("Explodus")};
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FText name;
 
-    UPROPERTY(BlueprintReadWrite)
-    FVector2D Location {0.0f, 0.0f};
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FSolarSystem solarSystem;
 
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FTransform transform;
 };
