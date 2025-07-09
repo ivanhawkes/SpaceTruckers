@@ -11,12 +11,13 @@ struct FMarketItem : public FTableRowBase
     GENERATED_BODY()
 
 public:
+    // The name of the market may include spaces.
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText name;
+    FText marketName;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText itemDescription;
+    FText description;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FMarketItemCategory itemCategory;
+    FMarketItemCategory category;
 };

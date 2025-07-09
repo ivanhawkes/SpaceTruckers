@@ -9,7 +9,7 @@ enum class EMarketCategoryType : uint8
 {
     Arms UMETA(DisplayName = "Arms"),
     Computing UMETA(DisplayName = "Computing"),
-    ConstructionMaterial UMETA(DisplayName = "ConstructionMaterial"),
+    ConstructionMaterial UMETA(DisplayName = "Construction Material"),
     Consumable UMETA(DisplayName = "Consumable"),
     Fertiliser UMETA(DisplayName = "Fertiliser"),
     Fuel UMETA(DisplayName = "Fuel"),
@@ -31,10 +31,6 @@ struct FMarketItemCategory : public FTableRowBase
     GENERATED_BODY()
 
 public:
-    // The ID name of this item for referencing in a table row.
-    UPROPERTY(EditAnywhere, Category = "Item Data")
-    FName id;
-
     UPROPERTY(EditAnywhere, Category = "Item Data")
     FText categoryName;
 

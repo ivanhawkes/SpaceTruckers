@@ -13,10 +13,6 @@ struct FMarketListing : public FTableRowBase
     GENERATED_BODY()
 
 public:
-    // The ID name of this item for referencing in a table row.
-    UPROPERTY(EditAnywhere, Category = "Item Data")
-    FName id;
-    
     // Which vendor is offering this listing.
     UPROPERTY(EditAnywhere, Category = "Item Data")
     FMarketVendor vendor;
