@@ -1,17 +1,27 @@
 #pragma once
 
+#include "CoreMinimal.h"
+#include "Components/ActorComponent.h"
 #include "Marketplace.generated.h"
 
 
-USTRUCT(BlueprintType)
-struct FMarketplace
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+class SPACETRUCKERS_API UMarketplace : public UActorComponent
 {
-    GENERATED_BODY()
+	GENERATED_BODY()
 
 public:
-    UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText name;
+	// Sets default values for this component's properties
+	UMarketplace();
 
-    UPROPERTY(EditAnywhere, Category = "Item Data")
-    FVector2D Location {0.0f, 0.0f};
+protected:
+	// Called when the game starts
+	virtual void BeginPlay() override;
+
+public:
+	// Called every frame
+	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+	UPROPERTY(EditAnywhere, Category = "Item Data")
+	FText name;
 };
