@@ -19,7 +19,7 @@ enum class EMarketCategoryType : uint8
     Optics UMETA(DisplayName = "Optics"),
     Pharmaceutical UMETA(DisplayName = "Pharmaceutical"),
     Polymer UMETA(DisplayName = "Polymer"),
-    SmallArms UMETA(DisplayName = "SmallArms"),
+    SmallArms UMETA(DisplayName = "Small Arms"),
     Tool UMETA(DisplayName = "Tool"),
     Water UMETA(DisplayName = "Water")
 };
@@ -32,7 +32,10 @@ struct FMarketItemCategory : public FTableRowBase
 
 public:
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FText categoryName;
+    FName id;
+
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FText name;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
     EMarketCategoryType categoryType;

@@ -23,5 +23,8 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(EditAnywhere, Category = "Item Data")
+	FName id;
+
+	UPROPERTY(EditAnywhere, Category = "Item Data")
 	FText name;
 };
