@@ -13,13 +13,13 @@ struct FMarketListing : public FTableRowBase
     GENERATED_BODY()
 
 public:
-    // Which vendor is offering this listing.
-    UPROPERTY(EditAnywhere, Category = "Item Data")
-    FMarketVendor vendor;
-
     // What item is available for purchase.
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FMarketItem item;
+    FName itemId;
+
+    // De-normalised for performance reasons. This allows us to perform sorts and grouping without a table scan.
+    UPROPERTY(EditAnywhere, Category = "Item Data")
+    FName categoryId;
 
     // What price is each unit.
     UPROPERTY(EditAnywhere, Category = "Item Data")

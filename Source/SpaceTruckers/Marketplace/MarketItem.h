@@ -1,6 +1,5 @@
 #pragma once
 
-#include "MarketItemCategory.h"
 #include "Engine/DataTable.h"
 #include "MarketItem.generated.h"
 
@@ -21,7 +20,7 @@ public:
     FText description;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FMarketItemCategory category;
+    FName categoryId;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
     int32 stackSize;

@@ -38,5 +38,8 @@ public:
     FText name;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
+    FText description;
+
+    UPROPERTY(EditAnywhere, Category = "Item Data")
     EMarketCategoryType categoryType;
 };
