@@ -10,6 +10,7 @@ enum class EMarketCategoryType : uint8
     Alloy UMETA(DisplayName = "Alloys"),
     Appliances UMETA(DisplayName = "Appliances"),
     Arms UMETA(DisplayName = "Arms"),
+    Chemicals UMETA(DisplayName = "Chemicals"),
     Communication UMETA(DisplayName = "Communications"),
     Computing UMETA(DisplayName = "Computing"),
     ConstructionMaterial UMETA(DisplayName = "Construction Material"),
