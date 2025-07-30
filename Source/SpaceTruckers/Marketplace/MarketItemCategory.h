@@ -44,9 +44,6 @@ struct FMarketItemCategory : public FTableRowBase
 
 public:
     UPROPERTY(EditAnywhere, Category = "Item Data")
-    FName id;
-
-    UPROPERTY(EditAnywhere, Category = "Item Data")
     FText name;
 
     UPROPERTY(EditAnywhere, Category = "Item Data")
