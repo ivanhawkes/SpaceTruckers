@@ -1,10 +1,10 @@
 #pragma once
 
-#include "LocationNames.generated.h"
+#include "NameList.generated.h"
 
 
 USTRUCT(BlueprintType)
-struct FLocationNames : public FTableRowBase
+struct FNameList : public FTableRowBase
 {
     GENERATED_BODY()
 
