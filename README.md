@@ -46,3 +46,9 @@ Supply and demand will play a part in market rates.
 Planets might be better suited to organic materials than space stations.
 
 There is no such thing as artificial gravity or faster than light travel. Single exception is the quantum entangled bits that form a part of their galactic wide internet. A new receiver has to be delivered to the region the slow way first in order to achieve this faster than light transmission of information. Bandwidth is limited and costly.
+
+# Stock Exchange
+
+Consider writing a fully fledged exchange system in GoLang. It should be capable of serving several hundred transactions concurrently. It could be fleshed out later if needed. This can be self hosted and be an optional component allowing guilds of players or groups to have server level infrastructure.
+
+Game server is responsible to write transactions. Client is allowed read transactions.
