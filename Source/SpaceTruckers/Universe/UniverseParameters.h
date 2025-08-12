@@ -1,11 +1,11 @@
 #pragma once
 
 #include "Engine/DataTable.h"
-#include "Universe.generated.h"
+#include "UniverseParameters.generated.h"
 
 
 UCLASS(BlueprintType, Blueprintable)
-class SPACETRUCKERS_API UUniverse : public UDataAsset
+class SPACETRUCKERS_API UUniverseParameters : public UDataAsset
 {
     GENERATED_BODY()
 
