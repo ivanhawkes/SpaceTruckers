@@ -1,11 +1,13 @@
 #include "UniverseActor.h"
+#include "UniverseComponent.h"
 
 
 // Sets default values
 AUniverseActor::AUniverseActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	universeComponent = CreateDefaultSubobject<UUniverseComponent>(TEXT("Universe"), false);
 }
 
 

@@ -1,5 +1,7 @@
 #include "UniverseComponent.h"
 #include "Engine/Engine.h"
+#include "Engine/DataTable.h"
+#include "../NameList/NameList.h"
 
 
 // Sets default values for this component's properties
@@ -11,19 +13,46 @@ UUniverseComponent::UUniverseComponent()
 }
 
 
-// Called when the game starts
 void UUniverseComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
 	if (GEngine)
 		GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Yellow, "Begin Play...", true);
+
+	GenerateNewUniverse();
 }
 
 
-// Called every frame
 void UUniverseComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
 
+
+void UUniverseComponent::GenerateNewUniverse()
+{
+	if (GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Yellow, "Generate new universe", true);
+
+		if (solarSystemNames)
+		{
+			static const FString ContextString(TEXT("Finding Row in solar system table"));
+
+			TArray<FName> Rows = solarSystemNames->GetRowNames();
+
+			FNameList* myRow = solarSystemNames->FindRow<FNameList>(FName("Abel"), ContextString);
+			GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Yellow, myRow->name.ToString(), true);
+
+			auto& bRow = Rows[10];
+			GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Yellow, bRow.ToString(), true);
+
+			// Iterate every row of the array.
+			//for (auto& aRow : Rows)
+			//{
+			//	GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Yellow, aRow.ToString(), true);
+			//}
+		}
+	}
+}
