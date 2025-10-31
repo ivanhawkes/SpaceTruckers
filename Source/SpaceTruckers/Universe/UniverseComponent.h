@@ -26,4 +26,20 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	UDataTable* PlanetNames;
+
+	// Empty space at the centre of the galaxy. There is a black hole at the centre of every galaxy.
+	UPROPERTY(EditAnywhere, Category = "Item Data")
+	float deadZone {1000.0f};
+
+	UPROPERTY(EditAnywhere, Category = "Item Data")
+	float fixedRotationDegree {60.0f};
+
+	UPROPERTY(EditAnywhere, Category = "Item Data")
+	float randomRotationDegree {0.0f};
+
+	UPROPERTY(EditAnywhere, Category = "Item Data")
+	float fixedExpansionOutward {100.0f};
+
+	UPROPERTY(EditAnywhere, Category = "Item Data")
+	float randomExpansionOutward {0.0f};
 };
