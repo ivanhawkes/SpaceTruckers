@@ -37,9 +37,13 @@ void UUniverseComponent::GenerateNewUniverse()
 	const double pi {3.14159265358979323846};
 	const double toRadians {pi / 180.0f};
 
+	// Apply the seed for the randomness of this universe.
+	// TODO: We should probably use a specialty class for random generation instead of the built-in one.
+	srand(randomSeed);
+
 	if (GEngine)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Yellow, "Generate new universe", true);
+		GEngine->AddOnScreenDebugMessage(-1, 4.0f, FColor::Yellow, "Generate new universe using seed: " + FString::FromInt(randomSeed), true);
 
 		if (solarSystemNames)
 		{
