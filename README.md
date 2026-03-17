@@ -2,16 +2,16 @@
 
 A simple space trading game in the style of the original Elite.
 
-# TODO
+## TODO
 
-## Generate the map
+### Generate the map
 	
 	* populate it with star systems
 	* decide resource scarcity for each
 	* set market prices
 	* simulate govenment, natural disasters, resource mining operations, etc
 
-# Markets
+## Markets
 
 	* bonds / ZC bonds
 	* stocks / equities
@@ -21,19 +21,19 @@ A simple space trading game in the style of the original Elite.
 	* ETF (Exchange Traded Funds)
 	* commodities
 
-# Ships
+## Ships
 
 	* base ships
 	* extend with guns, better drives, improved AI, longer range communications
 	* robots for unloading
 
-# Trade Hubs
+## Trade Hubs
 
 Since it's costly to enter a gravity well of any decent size most trading will be done with orbital platforms, captive asteroids, wrecks of massive ships, etc.
 
 Each trade hub will have one or more markets, probably just the one to simplify the game code a bit.
 
-# Trade Parameters
+## Trade Parameters
 
 You can go fast or you can go cheap, but you can't go both. Fuel burns at the start and end of journeys will need to be factored into the price of goods.
 
@@ -47,8 +47,38 @@ Planets might be better suited to organic materials than space stations.
 
 There is no such thing as artificial gravity or faster than light travel. Single exception is the quantum entangled bits that form a part of their galactic wide internet. A new receiver has to be delivered to the region the slow way first in order to achieve this faster than light transmission of information. Bandwidth is limited and costly.
 
-# Stock Exchange
+## Stock Exchange
 
 Consider writing a fully fledged exchange system in GoLang. It should be capable of serving several hundred transactions concurrently. It could be fleshed out later if needed. This can be self hosted and be an optional component allowing guilds of players or groups to have server level infrastructure.
 
 Game server is responsible to write transactions. Client is allowed read transactions.
+
+## Tech Tree Advancement
+
+Each community will have it's own level of tech advancement based on it's resources available,
+population (skills, health, etc), and past achievements.
+
+They will need to trade for materials / tech that can help advance them through a tech tree.
+
+Rough plan:
+	* pre-historic
+	* medieval
+	* aguarian
+	* pre-industrial
+	* industrial
+	* post-industrial
+	* information age
+	* AI age
+	* singularity
+	* space travel
+	* space tourism
+	* space colonisation
+	* to infinity and beyond
+	* sublimation
+
+By tailoring the markets to their current needs it can make it more interesting and a little
+more coherent.
+
+NOTE: They might be in two stages at once or overlapping from one to another. They are not exclusive and a
+direct line forward.
+
