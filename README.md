@@ -60,21 +60,176 @@ population (skills, health, etc), and past achievements.
 
 They will need to trade for materials / tech that can help advance them through a tech tree.
 
+NOTE: each period builds on previous periods. Some goods will drop in value at the start of
+the next period, others are evergreen and persist for the rest of the tree. By default,
+anything they make is also considered available for sale.
+
 Rough plan:
-	* pre-historic
+	* stone age - good for looters and slavers to set up trade posts
+		* SOCIAL CHANGE
+		* MAKE
+			* religion
+		* SELL
+			* slaves
+			* natural drugs
+			* precursors for biotech weapons i.e. novel viruses
+		* BUY
+			* small amounts of luxury lifestyle goods for the slavers
+			* colonisation goods e.g. habitats
+			* weapons
+			* restraints
+			* alcohol
+			* drugs
+			* sex workers
+	* bronze age - much the same as above
+		* SOCIAL CHANGE
+		* MAKE
+			* wheel
+		* SELL
+			* metals
+			* minerals
+			* jewelery
+			* cloth / clothing
+			* mercenaries
+		* BUY
+			* pen + paper
+			* engineering items - building pyramids / ziggurats
+	* iron age
+		* SOCIAL CHANGE
+			* rise of the kings
+		* MAKE
+			* early farming implements
+			* carts drawn by animals
+		* SELL
+			* harder metals
+		* BUY
+			* advance farming implements
+	* classical age
+		* SOCIAL CHANGE
+			* world conquest
+		* MAKE
+			* maths
+			* alchemy
+			* shipping
+			* clocks
+			* Antikythera mechanism
+			* orary
+			* ceramincs
+			* mills
+			* siege weapons
+			* art / theatre
+			* cultural artifacts
+			* books
+			* pornograhy
+		* SELL
+			* grain
+			* alcohol
+		* BUY
 	* medieval
-	* aguarian
+		* SOCIAL CHANGE
+		* MAKE
+			* heavy machinery
+			* astrolabe
+		* SELL
+		* BUY
 	* pre-industrial
+		* SOCIAL CHANGE
+		* MAKE
+			* physics
+			* mass printed media
+		* SELL
+		* BUY
 	* industrial
+		* SOCIAL CHANGE
+			* job unheaval / change in availability
+			* workers rights movements
+			* rise of the billionaires
+		* MAKE
+			* steam power
+			* internal combustion engine
+			* refrigeration
+			* factories
+			* basic communications
+			* electricity
+			* safe lighting and heating
+			* early medicine
+			* chemistry
+		* SELL
+		* BUY
 	* post-industrial
+		* SOCIAL CHANGE
+			* more leisure time
+		* MAKE
+			* synthetic drugs
+			* microwave ovens
+			* conveniences
+			* wifi
+			* radar
+			* nuclear weapons
+			* nuclear power
+		* SELL
+		* BUY
 	* information age
+		* SOCIAL CHANGE
+			* social and political schism / division
+			* world wide exchange of ideas
+			* post truth
+			* astro-turfing
+			* bot farms
+			* troll farms
+		* MAKE
+			* computers
+			* computer games
+			* design tools e.g. CAD
+			* databases
+			* spreadsheets
+			* word processing
+			* CAT scan
+			* MRI
+			* Simulation software
+		* SELL
+		* BUY
 	* AI age
-	* singularity
-	* space travel
-	* space tourism
+		* SOCIAL CHANGE
+			* mass unemployment
+			* widespread poverty
+			* social unrest
+			* the singularity
+			* faster pace of development
+		* MAKE
+			* AI slop
+		* SELL
+		* BUY
+	* space age
+		* SOCIAL CHANGE
+		* MAKE
+			* satelites
+			* space station
+			* moonshot
+			* marsshot
+			* space tourism
+		* SELL
+		* BUY
 	* space colonisation
-	* to infinity and beyond
+		* SOCIAL CHANGE
+			* disapora
+			* terraforming
+		* MAKE
+			* space shipping
+			* asteroid mining
+			* ice "mining" in the ice belt
+			* terraforming equipment
+		* SELL
+		* BUY
 	* sublimation
+		* SOCIAL CHANGE
+			* we're done with this material world of illusions
+		* MAKE
+			* nothing
+		* SELL
+			* nothing
+		* BUY
+			* nothing
 
 By tailoring the markets to their current needs it can make it more interesting and a little
 more coherent.
@@ -82,3 +237,6 @@ more coherent.
 NOTE: They might be in two stages at once or overlapping from one to another. They are not exclusive and a
 direct line forward.
 
+## References
+
+[Periods and Eras](https://www.weaversnest.org/human-history/periods-and-eras)
