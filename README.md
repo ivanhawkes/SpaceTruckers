@@ -65,361 +65,356 @@ the next period, others are evergreen and persist for the rest of the tree. By d
 anything they make is also considered available for sale.
 
 Rough plan:
-	* stone age - good for looters and slavers to set up trade posts
-		* SOCIAL CHANGE
-		* MAKE
-			* religion
-			* fire
-			* stone tools
-			* rope
-			* charcoal
-			* domesticated dogs
-			* pottery
-			* pigments
-			* cave painting
-			* glue
-			* mining
-		* SELL
-			* slaves
-			* natural drugs
-			* precursors for biotech weapons i.e. novel viruses
-		* BUY
-			* small amounts of luxury lifestyle goods for the slavers
-			* colonisation goods e.g. habitats
-			* weapons
-			* restraints
-			* alcohol
-			* drugs
-			* sex workers
-	* pre-history
-		* SOCIAL CHANGE
-		* MAKE
-			* bread
-			* fermentation
-			* domesticated grains
-			* domesticated animals
-			* mud bricks
-			* lime
-			* lead
-			* ard plough
-			* irrigation
-		* SELL
-		* BUY
-	* copper
-		* SOCIAL CHANGE
-		* MAKE
-			* salt mining
-			* sailing (exploration)
-			* crucible
-			* fired bricks
-			* natron
-			* plumbing
-			* mirrors
-		* SELL
-		* BUY
-	* bronze age - much the same as above
-		* SOCIAL CHANGE
-		* MAKE
-			* wheel
-		* SELL
-			* metals
-			* minerals
-			* jewelery
-			* cloth / clothing
-			* mercenaries
-		* BUY
-			* pen + paper
-			* engineering items - building pyramids / ziggurats
-	* iron age
-		* SOCIAL CHANGE
-			* rise of the kings
-		* MAKE
-			* early farming implements
-			* carts drawn by animals
-			* latrines
-			* swords
-			* writing
-			* tin
-			* bronze
-			* brass
-			* vinegar
-			* shaduf
-			* paper
-			* pen / quill
-			* papyrus
-			* ink
-		* SELL
-			* harder metals
-		* BUY
-			* advance farming implements
-	* classical age
-		* SOCIAL CHANGE
-			* world conquest
-		* MAKE
-			* maths
-			* alchemy
-			* shipping
-			* water clock
-			* star charts
-			* Antikythera mechanism / analogue computer
-			* orary
-			* ceramincs
-			* mills
-			* siege weapons
-			* art / theatre
-			* cultural artifacts
-			* books
-			* pornograhy
-			* piston bellows
-			* glass
-			* concrete
-			* distillation
-			* lathe
-			* vitreous enamel
-			* screw
-			* saddle
-			* coins
-			* lighthouse
-			* mangonel / traction trebuchet
-			* balista
-			* catapault
-			* crossbow
-			* archimedes screw
-			* suction pump
-			* blast furnace
-			* astrolabe
-			* soap
-			* glass window
-		* SELL
-			* grain
-			* alcohol
-		* BUY
-	* medieval
-		* SOCIAL CHANGE
-		* MAKE
-			* heavy machinery
-			* fractional distillation
-			* soda ash
-			* antimony
-			* gunpowder
-			* compass
-			* sulphuric acid
-			* canon
-			* rocket
-			* aqua regia
-			* worm drive
-			* fully mechanical clock
-			* cipher disk
-			* bismuth
-			* guillotine
-			* rifling
-			* laudanum
-			* flintlock / black powder gun
-		* SELL
-		* BUY
-	* pre-industrial
-		* SOCIAL CHANGE
-		* MAKE
-			* physics
-			* mass printed media
-			* vacuum pump
-			* calculus
-			* nickel
-			* hydrogen
-			* chlorine
-			* molybdenum
-			* tungsten
-			* threshing machine
-			* uranium
-			* Leblanc process
-			* microscope (when?)
-		* SELL
-		* BUY
-	* industrial
-		* SOCIAL CHANGE
-			* job unheaval / change in availability
-			* workers rights movements
-			* rise of the billionaires
-		* MAKE
-			* steam power
-			* internal combustion engine
-			* refrigeration
-			* factories
-			* basic communications
-			* electricity
-			* safe lighting and heating
-			* early medicine
-			* chemistry
-			* automatic flour mill
-			* sewing machine
-			* cotton gin
-			* electrolosis
-			* jacquard loom
-			* morphine
-			* potasium
-			* iodine
-			* silicon
-			* electro-magnets
-			* portland cement
-			* aluminium
-			* photography
-			* electric motor
-			* AC/DC
-			* induction coil
-			* electric light
-			* railway semaphore signal
-			* computer program (can't run on anything yet)
-			* rifled musket
-			* dirigible
-			* cocaine
-			* amphetamines
-			* heroine
-			* TNT
-			* gattling gun
-			* pasturisation
-			* dynamite
-			* Maxwell's equations
-			* centrifuge
-			* offset printing
-			* four stroke engine
-			* two stroke engine
-			* gasoline
-			* chromosomes
-			* neodymium
-			* gemanium
-			* steam turbine
-			* wind turbine
-			* pnumatic tire
-			* tractor
-			* rotary engine
-			* parabolic antenna
-			* radio waves
-			* phonograph
-			* newspapers
-			* amonia (when?)
-			* x-ray
-			* radioactivity
-			* oscilloscope
-			* electron
-			* cathode ray tube
-			* valves
-			* standard model of physics
-			* chromatography
-			* airplane
-			* tank
-			* cryptography
-			* sonar
-			* microphones
-			* LED
-			* magnetic tape
-		* SELL
-		* BUY
-	* post-industrial
-		* SOCIAL CHANGE
-			* more leisure time
-		* MAKE
-			* television
-			* Turing machine
-			* scanning electron microscope
-			* programmable electronic computer
-			* video game
-			* JFET
-			* MOSFET
-			* transistor
-			* pacemaker
-			* drones
-			* MOS SRAM
-			* optical fibre
-			* Eliza chatbot
-			* pocket calculator
-			* electronic watch
-			* networks
-			* internet
-			* mobile phone
-			* microprocessors
-			* mobile device
-			* touchscreen
-			* EEPROM
-			* microcomputer
-			* DNA sequencing
-			* 
-			* synthetic drugs
-			* microwave ovens
-			* conveniences
-			* wifi
-			* radar
-			* nuclear weapons
-			* nuclear power
-		* SELL
-		* BUY
-	* information age
-		* SOCIAL CHANGE
-			* social and political schism / division
-			* world wide exchange of ideas
-			* post truth
-			* astro-turfing
-			* bot farms
-			* troll farms
-		* MAKE
-			* computers
-			* computer games
-			* design tools e.g. CAD
-			* databases
-			* spreadsheets
-			* word processing
-			* CAT scan
-			* MRI
-			* Simulation software
-		* SELL
-		* BUY
-	* AI age
-		* SOCIAL CHANGE
-			* mass unemployment
-			* widespread poverty
-			* social unrest
-			* the singularity
-			* faster pace of development
-		* MAKE
-			* AI slop
-		* SELL
-		* BUY
-	* space age
-		* SOCIAL CHANGE
-		* MAKE
-			* satelites
-			* space station
-			* moonshot
-			* marsshot
-			* space tourism
-		* SELL
-		* BUY
-	* space colonisation
-		* SOCIAL CHANGE
-			* disapora
-			* terraforming
-		* MAKE
-			* space shipping
-			* asteroid mining
-			* ice "mining" in the ice belt
-			* terraforming equipment
-		* SELL
-		* BUY
-	* sublimation
-		* SOCIAL CHANGE
-			* we're done with this material world of illusions
-		* MAKE
-			* nothing
-		* SELL
-			* nothing
-		* BUY
-			* nothing
 
-
-	* XXXX
-		* SOCIAL CHANGE
-		* MAKE
-		* SELL
-		* BUY
+* stone age - good for looters and slavers to set up trade posts
+	* SOCIAL CHANGE
+	* MAKE
+		* religion
+		* fire
+		* stone tools
+		* rope
+		* charcoal
+		* domesticated dogs
+		* pottery
+		* pigments
+		* cave painting
+		* glue
+		* mining
+	* SELL
+		* slaves
+		* natural drugs
+		* precursors for biotech weapons i.e. novel viruses
+	* BUY
+		* small amounts of luxury lifestyle goods for the slavers
+		* colonisation goods e.g. habitats
+		* weapons
+		* restraints
+		* alcohol
+		* drugs
+		* sex workers
+* pre-history
+	* SOCIAL CHANGE
+	* MAKE
+		* bread
+		* fermentation
+		* domesticated grains
+		* domesticated animals
+		* mud bricks
+		* lime
+		* lead
+		* ard plough
+		* irrigation
+	* SELL
+	* BUY
+* copper
+	* SOCIAL CHANGE
+	* MAKE
+		* salt mining
+		* sailing (exploration)
+		* crucible
+		* fired bricks
+		* natron
+		* plumbing
+		* mirrors
+	* SELL
+	* BUY
+* bronze age - much the same as above
+	* SOCIAL CHANGE
+	* MAKE
+		* wheel
+	* SELL
+		* metals
+		* minerals
+		* jewelery
+		* cloth / clothing
+		* mercenaries
+	* BUY
+		* pen + paper
+		* engineering items - building pyramids / ziggurats
+* iron age
+	* SOCIAL CHANGE
+		* rise of the kings
+	* MAKE
+		* early farming implements
+		* carts drawn by animals
+		* latrines
+		* swords
+		* writing
+		* tin
+		* bronze
+		* brass
+		* vinegar
+		* shaduf
+		* paper
+		* pen / quill
+		* papyrus
+		* ink
+	* SELL
+		* harder metals
+	* BUY
+		* advance farming implements
+* classical age
+	* SOCIAL CHANGE
+		* world conquest
+	* MAKE
+		* maths
+		* alchemy
+		* shipping
+		* water clock
+		* star charts
+		* Antikythera mechanism / analogue computer
+		* orary
+		* ceramincs
+		* mills
+		* siege weapons
+		* art / theatre
+		* cultural artifacts
+		* books
+		* pornograhy
+		* piston bellows
+		* glass
+		* concrete
+		* distillation
+		* lathe
+		* vitreous enamel
+		* screw
+		* saddle
+		* coins
+		* lighthouse
+		* mangonel / traction trebuchet
+		* balista
+		* catapault
+		* crossbow
+		* archimedes screw
+		* suction pump
+		* blast furnace
+		* astrolabe
+		* soap
+		* glass window
+	* SELL
+		* grain
+		* alcohol
+	* BUY
+* medieval
+	* SOCIAL CHANGE
+	* MAKE
+		* heavy machinery
+		* fractional distillation
+		* soda ash
+		* antimony
+		* gunpowder
+		* compass
+		* sulphuric acid
+		* canon
+		* rocket
+		* aqua regia
+		* worm drive
+		* fully mechanical clock
+		* cipher disk
+		* bismuth
+		* guillotine
+		* rifling
+		* laudanum
+		* flintlock / black powder gun
+	* SELL
+	* BUY
+* pre-industrial
+	* SOCIAL CHANGE
+	* MAKE
+		* physics
+		* mass printed media
+		* vacuum pump
+		* calculus
+		* nickel
+		* hydrogen
+		* chlorine
+		* molybdenum
+		* tungsten
+		* threshing machine
+		* uranium
+		* Leblanc process
+		* microscope (when?)
+	* SELL
+	* BUY
+* industrial
+	* SOCIAL CHANGE
+		* job unheaval / change in availability
+		* workers rights movements
+		* rise of the billionaires
+	* MAKE
+		* steam power
+		* internal combustion engine
+		* refrigeration
+		* factories
+		* basic communications
+		* electricity
+		* safe lighting and heating
+		* early medicine
+		* chemistry
+		* automatic flour mill
+		* sewing machine
+		* cotton gin
+		* electrolosis
+		* jacquard loom
+		* morphine
+		* potasium
+		* iodine
+		* silicon
+		* electro-magnets
+		* portland cement
+		* aluminium
+		* photography
+		* electric motor
+		* AC/DC
+		* induction coil
+		* electric light
+		* railway semaphore signal
+		* computer program (can't run on anything yet)
+		* rifled musket
+		* dirigible
+		* cocaine
+		* amphetamines
+		* heroine
+		* TNT
+		* gattling gun
+		* pasturisation
+		* dynamite
+		* Maxwell's equations
+		* centrifuge
+		* offset printing
+		* four stroke engine
+		* two stroke engine
+		* gasoline
+		* chromosomes
+		* neodymium
+		* gemanium
+		* steam turbine
+		* wind turbine
+		* pnumatic tire
+		* tractor
+		* rotary engine
+		* parabolic antenna
+		* radio waves
+		* phonograph
+		* newspapers
+		* ammonia, Haber process
+		* x-ray
+		* radioactivity
+		* oscilloscope
+		* electron
+		* cathode ray tube
+		* valves
+		* standard model of physics
+		* chromatography
+		* airplane
+		* tank
+		* cryptography
+		* sonar
+		* microphones
+		* LED
+		* magnetic tape
+	* SELL
+	* BUY
+* post-industrial
+	* SOCIAL CHANGE
+		* more leisure time
+	* MAKE
+		* television
+		* Turing machine
+		* scanning electron microscope
+		* programmable electronic computer
+		* video game
+		* JFET
+		* MOSFET
+		* transistor
+		* pacemaker
+		* drones
+		* MOS SRAM
+		* optical fibre
+		* Eliza chatbot
+		* pocket calculator
+		* electronic watch
+		* networks
+		* internet
+		* mobile phone
+		* microprocessors
+		* mobile device
+		* touchscreen
+		* EEPROM
+		* microcomputer
+		* DNA sequencing
+		* synthetic drugs
+		* microwave ovens
+		* conveniences
+		* wifi
+		* radar
+		* nuclear weapons
+		* nuclear power
+	* SELL
+	* BUY
+* information age
+	* SOCIAL CHANGE
+		* social and political schism / division
+		* world wide exchange of ideas
+		* post truth
+		* astro-turfing
+		* bot farms
+		* troll farms
+		* quantum computing
+		* particle accelerator
+	* MAKE
+		* computers
+		* computer games
+		* design tools e.g. CAD
+		* databases
+		* spreadsheets
+		* word processing
+		* CAT scan
+		* MRI
+		* Simulation software
+	* SELL
+	* BUY
+* AI age
+	* SOCIAL CHANGE
+		* mass unemployment
+		* widespread poverty
+		* social unrest
+		* the singularity
+		* faster pace of development
+	* MAKE
+		* AI slop
+	* SELL
+	* BUY
+* space age
+	* SOCIAL CHANGE
+	* MAKE
+		* satelites
+		* space station
+		* moonshot
+		* marsshot
+		* space tourism
+	* SELL
+	* BUY
+* space colonisation
+	* SOCIAL CHANGE
+		* disapora
+		* terraforming
+	* MAKE
+		* space shipping
+		* asteroid mining
+		* ice "mining" in the ice belt
+		* terraforming equipment
+	* SELL
+	* BUY
+* sublimation
+	* SOCIAL CHANGE
+		* we're done with this material world of illusions
+	* MAKE
+		* nothing
+	* SELL
+		* nothing
+	* BUY
+		* nothing
 
 By tailoring the markets to their current needs it can make it more interesting and a little
 more coherent.
@@ -440,6 +435,7 @@ direct line forward.
 	* literature
 	* computing
 	* communications
+	* information
 
 ## References
 
