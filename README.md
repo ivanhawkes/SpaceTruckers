@@ -69,6 +69,16 @@ Rough plan:
 		* SOCIAL CHANGE
 		* MAKE
 			* religion
+			* fire
+			* stone tools
+			* rope
+			* charcoal
+			* domesticated dogs
+			* pottery
+			* pigments
+			* cave painting
+			* glue
+			* mining
 		* SELL
 			* slaves
 			* natural drugs
@@ -81,6 +91,32 @@ Rough plan:
 			* alcohol
 			* drugs
 			* sex workers
+	* pre-history
+		* SOCIAL CHANGE
+		* MAKE
+			* bread
+			* fermentation
+			* domesticated grains
+			* domesticated animals
+			* mud bricks
+			* lime
+			* lead
+			* ard plough
+			* irrigation
+		* SELL
+		* BUY
+	* copper
+		* SOCIAL CHANGE
+		* MAKE
+			* salt mining
+			* sailing (exploration)
+			* crucible
+			* fired bricks
+			* natron
+			* plumbing
+			* mirrors
+		* SELL
+		* BUY
 	* bronze age - much the same as above
 		* SOCIAL CHANGE
 		* MAKE
@@ -100,6 +136,18 @@ Rough plan:
 		* MAKE
 			* early farming implements
 			* carts drawn by animals
+			* latrines
+			* swords
+			* writing
+			* tin
+			* bronze
+			* brass
+			* vinegar
+			* shaduf
+			* paper
+			* pen / quill
+			* papyrus
+			* ink
 		* SELL
 			* harder metals
 		* BUY
@@ -111,8 +159,9 @@ Rough plan:
 			* maths
 			* alchemy
 			* shipping
-			* clocks
-			* Antikythera mechanism
+			* water clock
+			* star charts
+			* Antikythera mechanism / analogue computer
 			* orary
 			* ceramincs
 			* mills
@@ -121,6 +170,26 @@ Rough plan:
 			* cultural artifacts
 			* books
 			* pornograhy
+			* piston bellows
+			* glass
+			* concrete
+			* distillation
+			* lathe
+			* vitreous enamel
+			* screw
+			* saddle
+			* coins
+			* lighthouse
+			* mangonel / traction trebuchet
+			* balista
+			* catapault
+			* crossbow
+			* archimedes screw
+			* suction pump
+			* blast furnace
+			* astrolabe
+			* soap
+			* glass window
 		* SELL
 			* grain
 			* alcohol
@@ -129,7 +198,23 @@ Rough plan:
 		* SOCIAL CHANGE
 		* MAKE
 			* heavy machinery
-			* astrolabe
+			* fractional distillation
+			* soda ash
+			* antimony
+			* gunpowder
+			* compass
+			* sulphuric acid
+			* canon
+			* rocket
+			* aqua regia
+			* worm drive
+			* fully mechanical clock
+			* cipher disk
+			* bismuth
+			* guillotine
+			* rifling
+			* laudanum
+			* flintlock / black powder gun
 		* SELL
 		* BUY
 	* pre-industrial
@@ -137,6 +222,17 @@ Rough plan:
 		* MAKE
 			* physics
 			* mass printed media
+			* vacuum pump
+			* calculus
+			* nickel
+			* hydrogen
+			* chlorine
+			* molybdenum
+			* tungsten
+			* threshing machine
+			* uranium
+			* Leblanc process
+			* microscope (when?)
 		* SELL
 		* BUY
 	* industrial
@@ -154,12 +250,99 @@ Rough plan:
 			* safe lighting and heating
 			* early medicine
 			* chemistry
+			* automatic flour mill
+			* sewing machine
+			* cotton gin
+			* electrolosis
+			* jacquard loom
+			* morphine
+			* potasium
+			* iodine
+			* silicon
+			* electro-magnets
+			* portland cement
+			* aluminium
+			* photography
+			* electric motor
+			* AC/DC
+			* induction coil
+			* electric light
+			* railway semaphore signal
+			* computer program (can't run on anything yet)
+			* rifled musket
+			* dirigible
+			* cocaine
+			* amphetamines
+			* heroine
+			* TNT
+			* gattling gun
+			* pasturisation
+			* dynamite
+			* Maxwell's equations
+			* centrifuge
+			* offset printing
+			* four stroke engine
+			* two stroke engine
+			* gasoline
+			* chromosomes
+			* neodymium
+			* gemanium
+			* steam turbine
+			* wind turbine
+			* pnumatic tire
+			* tractor
+			* rotary engine
+			* parabolic antenna
+			* radio waves
+			* phonograph
+			* newspapers
+			* amonia (when?)
+			* x-ray
+			* radioactivity
+			* oscilloscope
+			* electron
+			* cathode ray tube
+			* valves
+			* standard model of physics
+			* chromatography
+			* airplane
+			* tank
+			* cryptography
+			* sonar
+			* microphones
+			* LED
+			* magnetic tape
 		* SELL
 		* BUY
 	* post-industrial
 		* SOCIAL CHANGE
 			* more leisure time
 		* MAKE
+			* television
+			* Turing machine
+			* scanning electron microscope
+			* programmable electronic computer
+			* video game
+			* JFET
+			* MOSFET
+			* transistor
+			* pacemaker
+			* drones
+			* MOS SRAM
+			* optical fibre
+			* Eliza chatbot
+			* pocket calculator
+			* electronic watch
+			* networks
+			* internet
+			* mobile phone
+			* microprocessors
+			* mobile device
+			* touchscreen
+			* EEPROM
+			* microcomputer
+			* DNA sequencing
+			* 
 			* synthetic drugs
 			* microwave ovens
 			* conveniences
@@ -231,12 +414,35 @@ Rough plan:
 		* BUY
 			* nothing
 
+
+	* XXXX
+		* SOCIAL CHANGE
+		* MAKE
+		* SELL
+		* BUY
+
 By tailoring the markets to their current needs it can make it more interesting and a little
 more coherent.
 
 NOTE: They might be in two stages at once or overlapping from one to another. They are not exclusive and a
 direct line forward.
 
+# Major Categories of Advancement
+
+	* agriculture
+	* industry
+	* commerce
+	* chemistry
+	* math
+	* physics
+	* arts
+	* culture
+	* literature
+	* computing
+	* communications
+
 ## References
 
 [Periods and Eras](https://www.weaversnest.org/human-history/periods-and-eras)
+
+[Human Tech Tree](https://www.historicaltechtree.com/)
